@@ -58,5 +58,7 @@ def troll_max(link, fichier):
 # Exemple d'utilisation de la fonction troll_max avec un lien et un fichier spécifiés
 link = "your_link_here"
 fichier = "fic.txt"
-for i in range (0, 10):
-    troll_max(link, fichier)
+
+if __name__ == "__main__":
+    for i in range (0, 10): #vous pouvez changer les valeurs pour augmenter le nombre de fois que le spam sera envoyé
+        troll_max(link, fichier)
